@@ -1,0 +1,33 @@
+---
+about:
+  template: jolla
+  id: about-block
+  image: "img/about-me.jpg"
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/fads86
+    - icon: linkedin
+      text: LinkedIn
+      href: https://uk.linkedin.com/in/alison-macfadyen-a9469925
+    - icon: github
+      text: Github
+      href: https://github.com/AlisonMacFadyen
+    - icon: {{< ai orcid >}}
+      text: ORCID
+      href: https://orcid.org/0000-0002-1632-0944
+    - icon: envelope
+      aria-label: email
+      href: "mailto:mail.alison.macfadyen@tsl.ac.uk" 
+---
+
+::: {#about-block}
+:::
+
+# Stay a while
+
+I began my research career working on antibiotic productivity, using genomics and metabolomics.  My past research positions have covered many research areas, from Industrial Biotechnology to Environmental Engineering and most recently Molecular Epidemiology. These roles have allowed me to apply my skills in molecular microbiology and computational biology.
+
+This is my personal website to highlight my research, personal interests and my outreach project: The A to Z of Microbes.
+
+Please feel free to [contact me](mailto:alison.macfadyen@tsl.ac.uk) if you have any questions or would like to discuss potential projects.

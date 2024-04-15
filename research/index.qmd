@@ -1,0 +1,14 @@
+---
+title: "Research"
+---
+
+I am interested in microbial interactions, with a particular focus on inter-species interactions and co-evolution.  My research plans focus on developing wet laboratory and computational methods to support co-evolution studies.  Ultimately, I aim to use co-evolution to explore new avenues for antibiotic biosynthesis and development antimicrobial resistance.
+
+I am always interested in developing new collaborations and applications for my work, [contact me](mailto:alison.macfadyen@tsl.ac.uk) if you would like to discuss potential projects.
+
+::: {layout-ncol=2}
+
+![](research_banner.jpg)
+
+![](main_page_research.JPG)
+:::
