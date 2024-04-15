@@ -2,8 +2,6 @@
 title: "A to Z of Microbes"
 ---
 
-## A to Z of Microbes
-
 Welcome to the A to Z of Microbes.  Every two weeks I will write about a microorganism, either fungi, archae or bacteria, starting from A and finishing with Z.  Each post will be accompanied by a Q&A with an early career researcher working on the organism.
 
 I hope you enjoy.

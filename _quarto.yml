@@ -35,8 +35,6 @@ website:
       - icon: github
         text: Github
         href: https://github.com/AlisonMacFadyen
-      - icon: {{< ai orcid >}}
-        href: https://orcid.org/0000-0002-1632-0944
       - icon: envelope
         aria-label: email
         href: "mailto:mail.alison.macfadyen@tsl.ac.uk"  
@@ -49,11 +47,11 @@ website:
     type: textbox
   page-footer: 
     left: |
-      <span class="faux-block">&#169; 2023 Marvin Schmitt CC BY-SA 4.0</span>
+      <span class="faux-block">&#169; 2024 Alison MacFadyen</span>
     center: |
-      <span class="faux-block"><a href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/">View the tutorial for this template!</a></span>
+      <span class="faux-block"><a href="https://www.alisonmacfadyen.com">www.alisonmacfadyen.com</a></span>
     right: |
-      <span class="faux-block"><a href="https://github.com/marvinschmitt/quarto-website-template/">View source on GitHub</a></span>
+      <span class="faux-block"><a href="https://github.com/AlisonMacFadyen?tab=repositories">View my repositories at GitHub</a></span>
 
 project:
   type: website

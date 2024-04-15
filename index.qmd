@@ -2,7 +2,7 @@
 about:
   template: jolla
   id: about-block
-  image: "img/about-me.jpg"
+  image: "img/about_me.jpg"
   links:
     - icon: twitter
       text: Twitter
@@ -13,7 +13,7 @@ about:
     - icon: github
       text: Github
       href: https://github.com/AlisonMacFadyen
-    - icon: {{< ai orcid >}}
+    - icon: none
       text: ORCID
       href: https://orcid.org/0000-0002-1632-0944
     - icon: envelope
