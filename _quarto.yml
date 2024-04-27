@@ -19,15 +19,11 @@ website:
         href: research/index.qmd
       - text: "A-to-Z of Microbes"
         href: a-to-z-of-microbes/index.qmd
-      - text: "CV"
-        href: cv/index.qmd
       - text: "Everything Else"
         href: everything-else/index.qmd
     
     # your social media handles
     right:
-      - icon: folder-symlink
-        href: https://www.alisonmacfadyen.com/
       - icon: twitter
         href: https://twitter.com/fads86
       - icon: linkedin
@@ -49,7 +45,7 @@ website:
     left: |
       <span class="faux-block">&#169; 2024 Alison MacFadyen</span>
     center: |
-      <span class="faux-block"><a href="https://www.alisonmacfadyen.com">www.alisonmacfadyen.com</a></span>
+      <span class="faux-block"><a href="https://alisonmacfadyen.com">alisonmacfadyen.com</a></span>
     right: |
       <span class="faux-block"><a href="https://github.com/AlisonMacFadyen?tab=repositories">View my repositories at GitHub</a></span>
 

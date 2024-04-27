@@ -12,3 +12,14 @@ I am always interested in developing new collaborations and applications for my 
 
 ![](main_page_research.JPG)
 :::
+
+## SCC*mec* Diversity in non-*aureus* staphylococci
+
+Staphylococcal cassette chromosome *mec* (SCCmec), are mobile genetic elements responsible for conferring methicillin resistance in staphylococci and are highly diverse, with 15 types described. Non-*aureus* staphylococci can act as a reservoir for SCC*mec*, and often carry composite SCC*mec* elements. The exact prevalence, phylogenetic diversity and geographical spread of SCC*mec* in non-*aureus* staphylococci is unknown.
+
+Recently the group was awarded a [Harry Smith Vacation Studentship](https://microbiologysociety.org/grants/all-grants-prizes/harry-smith-vacation-studentships.html) from the Microbiology Society.  This will support our research analysing the diversity of SCC*mec* in non-*aureus* staphylococci.
+
+
+![SCC*mec* Diversity in *Staphylococcus pseudintermedius*](../img/SCCmec_diversity.png)
+
+
