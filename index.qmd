@@ -2,7 +2,7 @@
 about:
   template: jolla
   id: about-block
-  image: "img/about_me.jpg"
+  image: "img/IMG_2488.jpeg"
   links:
     - icon: bluesky
       text: Bluesky
