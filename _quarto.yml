@@ -17,15 +17,15 @@ website:
     left:
       - text: "Research"
         href: research/index.qmd
-      - text: "A-to-Z of Microbes"
-        href: a-to-z-of-microbes/index.qmd
+      - text: "Papers of the Week"
+        href: papers-of-note/index.qmd
       - text: "Everything Else"
         href: everything-else/index.qmd
     
     # your social media handles
     right:
-      - icon: twitter
-        href: https://twitter.com/fads86
+      - icon: bluesky
+        href: https://bsky.app/profile/alisonmacfadyen.bsky.social
       - icon: linkedin
         href: https://uk.linkedin.com/in/alison-macfadyen-a9469925
       - icon: github
@@ -43,7 +43,7 @@ website:
     type: textbox
   page-footer: 
     left: |
-      <span class="faux-block">&#169; 2024 Alison MacFadyen</span>
+      <span class="faux-block">&#169; 2025 Alison MacFadyen</span>
     center: |
       <span class="faux-block"><a href="https://alisonmacfadyen.com">alisonmacfadyen.com</a></span>
     right: |
