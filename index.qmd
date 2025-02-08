@@ -4,9 +4,9 @@ about:
   id: about-block
   image: "img/about_me.jpg"
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/fads86
+    - icon: bluesky
+      text: Bluesky
+      href: https://bsky.app/profile/alisonmacfadyen.bsky.social
     - icon: linkedin
       text: LinkedIn
       href: https://uk.linkedin.com/in/alison-macfadyen-a9469925
@@ -28,6 +28,6 @@ about:
 
 I began my research career working on antibiotic productivity, using genomics and metabolomics.  My past research positions have covered many research areas, from Industrial Biotechnology to Environmental Engineering and most recently Molecular Epidemiology. These roles have allowed me to apply my skills in molecular microbiology and computational biology.
 
-This is my personal website to highlight my research, personal interests and my outreach project: The A to Z of Microbes.
+This is my personal website to highlight my research, personal interests and interesting papers I have read during the week.
 
 Please feel free to [contact me](mailto:alison.macfadyen@tsl.ac.uk) if you have any questions or would like to discuss potential projects.

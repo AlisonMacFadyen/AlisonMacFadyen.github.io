@@ -9,9 +9,9 @@
   {
     "objectID": "a-to-z-of-microbes/index.html",
     "href": "a-to-z-of-microbes/index.html",
-    "title": "A to Z of Microbes",
+    "title": "Papers of the Week",
     "section": "",
-    "text": "Welcome to the A to Z of Microbes. Every two weeks I will write about a microorganism, either fungi, archae or bacteria, starting from A and finishing with Z. Each post will be accompanied by a Q&A with an early career researcher working on the organism.\nI hope you enjoy."
+    "text": "Every week I will share papers I have enjoyed or found interesting."
   },
   {
     "objectID": "everything-else/index.html",
@@ -25,7 +25,7 @@
     "href": "index.html",
     "title": "Stay a while",
     "section": "",
-    "text": "Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n  \n    \n     ORCID\n  \n  \n    \n     \n  \n\n\n\n\nStay a while\nI began my research career working on antibiotic productivity, using genomics and metabolomics. My past research positions have covered many research areas, from Industrial Biotechnology to Environmental Engineering and most recently Molecular Epidemiology. These roles have allowed me to apply my skills in molecular microbiology and computational biology.\nThis is my personal website to highlight my research, personal interests and my outreach project: The A to Z of Microbes.\nPlease feel free to contact me if you have any questions or would like to discuss potential projects."
+    "text": "Bluesky\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n  \n    \n     ORCID\n  \n  \n    \n     \n  \n\n\n\n\nStay a while\nI began my research career working on antibiotic productivity, using genomics and metabolomics. My past research positions have covered many research areas, from Industrial Biotechnology to Environmental Engineering and most recently Molecular Epidemiology. These roles have allowed me to apply my skills in molecular microbiology and computational biology.\nThis is my personal website to highlight my research, personal interests and interesting papers I have read during the week.\nPlease feel free to contact me if you have any questions or would like to discuss potential projects."
   },
   {
     "objectID": "research/index.html#sccmec-diversity-in-non-aureus-staphylococci",
@@ -33,5 +33,12 @@
     "title": "Research",
     "section": "SCCmec Diversity in non-aureus staphylococci",
     "text": "SCCmec Diversity in non-aureus staphylococci\nStaphylococcal cassette chromosome mec (SCCmec), are mobile genetic elements responsible for conferring methicillin resistance in staphylococci and are highly diverse, with 15 types described. Non-aureus staphylococci can act as a reservoir for SCCmec, and often carry composite SCCmec elements. The exact prevalence, phylogenetic diversity and geographical spread of SCCmec in non-aureus staphylococci is unknown.\nRecently the group was awarded a Harry Smith Vacation Studentship from the Microbiology Society. This will support our research analysing the diversity of SCCmec in non-aureus staphylococci.\n\n\n\nSCCmec Diversity in Staphylococcus pseudintermedius"
+  },
+  {
+    "objectID": "papers-of-note/index.html",
+    "href": "papers-of-note/index.html",
+    "title": "Papers of the Week",
+    "section": "",
+    "text": "Every week I will share papers I have enjoyed or found interesting."
   }
 ]
