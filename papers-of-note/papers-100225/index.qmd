@@ -20,9 +20,7 @@ This study investigates the relationship between mobile genetic elements (MGEs) 
 Overall, the study emphasizes the importance of understanding MGE-mediated ARG transfer to address the emergence of multidrug-resistant *S. aureus* clones in both human and animal health.
 
 
-**Key Figure****:
-
-Ensure to cite properly and give a good legend
+**Key Figure**:
 
 ![Occurrence and families of Staphylococcal Cassette Chromosome.  Black bars represent human associated *S. aureus*, white represents animal. This image was extracted from Figure 3 in the paper. ](paper1_img.PNG)
 
