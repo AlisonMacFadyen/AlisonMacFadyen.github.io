@@ -8,7 +8,7 @@ I am always interested in developing new collaborations and applications for my 
 
 ::: {layout-ncol=2}
 
-![](research_banner.jpg)
+![](research_banner.JPG)
 
 ![](main_page_research.JPG)
 :::

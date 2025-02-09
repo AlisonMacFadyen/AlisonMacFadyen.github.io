@@ -1,7 +1,5 @@
 ---
-title: "A to Z of Microbes"
+title: "Papers of the Week"
 ---
 
-Welcome to the A to Z of Microbes.  Every two weeks I will write about a microorganism, either fungi, archae or bacteria, starting from A and finishing with Z.  Each post will be accompanied by a Q&A with an early career researcher working on the organism.
-
-I hope you enjoy.
+Every week I will share papers I have enjoyed or found interesting.

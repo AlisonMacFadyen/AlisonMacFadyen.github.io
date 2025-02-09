@@ -1,0 +1,35 @@
+## What I\'ve been Reading - 15-02-25
+
+Introduction highlighting the subject of the papers.
+
+### The interplay between mobilome and resistome in *Staphylococcus* *aureus*
+
+**Paper**: Contarin R, Drapeau A, François P, Madec J, Haenni M, Dordet-Frisoni E.2024.The interplay between mobilome and resistome in Staphylococcus aureus. mBio15:e02428-24. <https://doi.org/10.1128/mbio.02428-24>
+
+
+**Take Home**: 
+
+This study investigates the relationship between mobile genetic elements (MGEs) and antibiotic resistance genes (ARGs) in *Staphylococcus aureus* by analysing over 10,000 genomes from both human and animal sources. Key findings include:
+
+1. **Diversity of MGEs and ARGs:** A remarkable variety of MGEs (e.g., plasmids and transposons) were identified as key carriers of ARGs.
+2. **MGE/ARG Associations:** Numerous associations were found, indicating MGEs are crucial for the horizontal transfer and dissemination of resistance genes.
+3. **Cross-Species Spread:** High similarity in MGE/ARG associations between human and animal isolates highlights the potential for ARGs to spread freely between hosts.
+4. **Spread Across Strains:** MGEs and their associated ARGs can spread between different sequence types (STs), facilitating the evolution and adaptation of *S. aureus* clones in selective environments.
+5. **Variability Within STs:** The variability of MGE/ARG associations within individual STs underscores the dynamic role of MGEs in shaping resistance profiles.
+
+Overall, the study emphasizes the importance of understanding MGE-mediated ARG transfer to address the emergence of multidrug-resistant *S. aureus* clones in both human and animal health.
+
+
+**Key Figure****:
+
+Ensure to cite properly and give a good legend
+
+![Occurrence and families of Staphylococcal Cassette Chromosome.  Black bars represent human associated *S. aureus*, white represents animal. This image was extracted from Figure 3 in the paper. ](paper1_img.PNG)
+
+**My thoughts**:
+
+Interesting to note that SCC*mec* Type XII is the most prominent SCC*mec* found in the animal isolates of SA.
+
+Type XIII-XV are missing.  They authors used SCCmecFinder and the following are missing from that database: Type XIII (MG674089), Type XIV (LC440647) and Type XV (CP080249).  It is also not clear from SCCmecFinder what the extended database includes.
+
+Investigating this I happened to come across `sccmec` which appears to be a SCC*mec* typing tool that includes the current Types (Type I-XV).  If you are interested in SCC*mec* typing then I recommend having a look: <https://github.com/rpetit3/sccmec>.
