@@ -13,7 +13,7 @@ about:
     - icon: github
       text: Github
       href: https://github.com/AlisonMacFadyen
-    - icon: none
+    - icon: orcid
       text: ORCID
       href: https://orcid.org/0000-0002-1632-0944
     - icon: envelope
