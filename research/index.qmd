@@ -2,24 +2,55 @@
 title: "Research"
 ---
 
-I am interested in microbial interactions, with a particular focus on inter-species interactions and co-evolution.  My research plans focus on developing wet laboratory and computational methods to support co-evolution studies.  Ultimately, I aim to use co-evolution to explore new avenues for antibiotic biosynthesis and development antimicrobial resistance.
-
-I am always interested in developing new collaborations and applications for my work, [contact me](mailto:alison.macfadyen@tsl.ac.uk) if you would like to discuss potential projects.
-
-::: {layout-ncol=2}
-
-![](research_banner.JPG)
-
-![](main_page_research.JPG)
-:::
-
-## SCC*mec* Diversity in non-*aureus* staphylococci
-
-Staphylococcal cassette chromosome *mec* (SCCmec), are mobile genetic elements responsible for conferring methicillin resistance in staphylococci and are highly diverse, with 15 types described. Non-*aureus* staphylococci can act as a reservoir for SCC*mec*, and often carry composite SCC*mec* elements. The exact prevalence, phylogenetic diversity and geographical spread of SCC*mec* in non-*aureus* staphylococci is unknown.
-
-Recently the group was awarded a [Harry Smith Vacation Studentship](https://microbiologysociety.org/grants/all-grants-prizes/harry-smith-vacation-studentships.html) from the Microbiology Society.  This will support our research analysing the diversity of SCC*mec* in non-*aureus* staphylococci.
-
-
 ![SCC*mec* Diversity in *Staphylococcus pseudintermedius*](../img/SCCmec_diversity.png)
 
+How does antimicrobial resistance spread between bacterial species?  Antimicrobial resistance (AMR) is one of the most pressing challenges in medical microbiology.  While much attention has focused on resistance in individual pathogenic species, less is understood about how resistance determinants move between species, and in particular, what role commensal bacteria play as reservoirs and vehicles for resistance gene transfer.
 
+My research addresses this question through the lens of staphylococcal cassette chromosome *mec* (SCC*mec*): the mobile genetic element responsible for methicillin resistance in staphylococci and mammaliicocci.  SCC*mec* is well characterised in *Staphylococcus aureus*, where it defines MRSA.  But the broader Staphylococcus genus (including dozens of species that colonise skin, gut and mucosal surfaces of humans and animals), harbours a far greater diversity of SCC*mec* elements than has been appreciated.  These non-*aureus* staphylococci may act as the evolutionary workshop where novel SCC*mec* elements are assembled before transferring into *S. aureus* and other pathogens.
+
+## SCCmecExtractor
+
+To investigate SCC*mec* diversity at scale, I developed SCC*mec*Extractor, a bioinformatics tool that detects, extracts and characterises SCC*mec* elements from staphylococcal and mammaliicoccal genome assemblies.
+
+The tool identifies integration sites (*attL*/*attR*), extracts the intervening element and characterises its content: *mec* gene and *ccr* recombinase genes.  It works across the entire Staphylococcus genus, not just *S. aureus*.
+
+Current version: v1.3.0 | BLAST-based detection | Gene content "typing" | Unified Report
+
+[GitHub repository](https://github.com/AlisonMacFadyen/SCCmecExtractor) | Paper in preparation
+
+## Key Findings
+
+Analysis of over 5000 non-*aureus* staphylococcal genomes has revealed:
+
+Recombinase specificity: The CcrC recombinase shows strict specificity for divergent *att* sites, while CcrA4B4 shows unique dual substrate flexibility.
+
+Composite elements: 452 genomes carry composite SCC*mec* elements containing multiple recombinase types, suggesting sequential integration events.
+
+Inter-species transfer: 53 detected transfer events across species boundaries, with animal-associated SCC*mec* elements showing similarity to those in *S. aureus*.
+
+These findings point to a much more dynamic picture of SCC*mec* evolution than previously recognised, with implications for understanding how methicillin resistance emerges and spreads.
+
+## Research Programme
+
+My ongoing and planned work spans three areas:
+
+Computational SCC*mec* diversity at scale — Analysis across >6,500 genomes (non-*aureus* and *S. aureus*), characterising composite elements and developing predictive models for SCC*mec* mobility.
+
+Recombinase specificity and mechanism — CcrC is the most common recombinase in non-*aureus* SCC*mec* yet has never been experimentally characterised.  I aim to determine its biochemical specificity through *in vitro* recombination assays and structural modelling and to understand the dual substrate flexibility of CcrA4B4.
+
+Inter-species SCC*mec* transfer — Testing computational predictions experimentally through co-culture transfer experiments with defined donor/recipient pairs.
+
+## Impact
+
+SCCmec diversity in non-*aureus* staphylococci is not currently captured by routine genomic surveillance.  SCC*mec*Extractor could complement existing tools used by public health agencies by enabling systematic monitoring of the commensal staphylococcal reservoir where novel resistance elements are assembled.  Furthermore, extracting complete elements, rather than simply assigning a type, enables phylogenetic comparison of element structures and cargo across species, supporting epidemiological tracking of resistance element dissemination.
+
+## Associated Publications
+
+- **MacFadyen, AC**; Paterson, GK. (2024). Methicillin resistance in Staphylococcus pseudintermedius encoded within novel staphylococcal cassette chromosome mec (SCCmec) variants. 2024, dkae096. doi: 10.1093/jac/dkae096
+- **MacFadyen, AC**; Harrison, EM; Morgan, FJE; Parkhill, J; Holmes, MA; Paterson, GK. (2019).  A mecC allotype, mecC3, in the CoNS Staphylococcus caeli, encoded within a variant SCCmecC. Journal of Antimicrobial Chemotherapy. 1;74(3):547-552. doi: 10.1093/jac/dky502
+- **MacFadyen, AC**; Fisher, E; Costa, B; Cullen, C; Paterson, G. (2018).  Genomic epidemiology of methicillin-resistant Macrococcus caseolyticus from dairy cattle bulk tank milk in England and Wales. Microbial Genomics. 2018, Aug;4(8). doi: 10.1099/mgen.0.000191
+- **MacFadyen, AC**; Harrison, EM; Ellington, MJ; Parkhill¬, J; Holmes, MA; Paterson¬, GK. (2018) A highly conserved mecC encoding SCCmec type XI in a bovine isolate of methicillin-resistant Staphylococcus xylosus. Journal of Antimicrobial Chemotherapy. 2018, Aug 27. doi: 10.1093/jac/dky333
+
+## In preparation
+- **MacFadyen, AC**. SCC*mec*Extractor: A tool for extracting Staphylococcal Cassette Chromosome elements from Staphylococcus Whole Genome Sequences.
+- **MacFadyen, AC** et al. SCC*mec* diversity in non-*aureus* staphylococci: evidence for inter-species transfer.

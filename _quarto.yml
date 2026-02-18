@@ -17,10 +17,8 @@ website:
     left:
       - text: "Research"
         href: research/index.qmd
-      - text: "Papers of the Week"
-        href: papers-of-note/index.qmd
-      - text: "Everything Else"
-        href: everything-else/index.qmd
+      - text: "Publications"
+        href: publications/index.qmd
     
     # your social media handles
     right:

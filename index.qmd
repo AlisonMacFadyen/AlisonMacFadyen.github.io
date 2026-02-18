@@ -2,7 +2,7 @@
 about:
   template: jolla
   id: about-block
-  image: "img/IMG_2488.jpeg"
+  image: "img/IMG_3957.jpeg"
   links:
     - icon: bluesky
       text: Bluesky
@@ -24,10 +24,13 @@ about:
 ::: {#about-block}
 :::
 
-# Stay a while
+# Alison MacFadyen
 
-I began my research career working on antibiotic productivity, using genomics and metabolomics.  My past research positions have covered many research areas, from Industrial Biotechnology to Environmental Engineering and most recently Molecular Epidemiology. These roles have allowed me to apply my skills in molecular microbiology and computational biology.
+I'm a computational biologist and molecular microbiologist based in Suffolk.  I study how antimicrobial resistance moves between bacterial species — specifically, how mobile genetic elements called SCC*mec* assemble and transfer within commensal staphylococcal populations, creating reservoirs that seed resistance into clinically important pathogens.
 
-This is my personal website to highlight my research, personal interests and interesting papers I have read during the week.
+
+I develop bioinformatics tools to tackle these questions at scale.  My tool, [SCC*mec*Extractor](https://github.com/AlisonMacFadyen/SCCmecExtractor) enables the systematic detection and characterisation of SCC*mec* elements across the *Staphylococcus* genus.
+
+I'm currently a Computational Biologist at [The Sainsbury Laboratory](https://www.tsl.ac.uk/) on the Norwich Research Park.  My background spans industrial biotechnology, environmental engineering and molecular epidemiology, with positions at the Universities of Strathclyde, Newcastle, Edinburgh and Glasgow.  I hold a PhD from the University of Strathclyde, in Molecular Microbiology and Genomics.
 
 Please feel free to [contact me](mailto:alison.macfadyen@tsl.ac.uk) if you have any questions or would like to discuss potential projects.

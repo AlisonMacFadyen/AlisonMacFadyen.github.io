@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Research – Alison MacFadyen</title>
+<title>Publications – Alison MacFadyen</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -93,11 +93,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../research/index.html" aria-current="page"> 
+    <a class="nav-link" href="../research/index.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../publications/index.html"> 
+    <a class="nav-link active" href="../publications/index.html" aria-current="page"> 
 <span class="menu-text">Publications</span></a>
   </li>  
 </ul>
@@ -133,14 +133,13 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-    </div>
+    
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research</h1>
+<h1 class="title">Publications</h1>
 </div>
 
 
@@ -157,58 +156,21 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="../img/SCCmec_diversity.png" class="img-fluid figure-img"></p>
-<figcaption class="margin-caption">SCC<em>mec</em> Diversity in <em>Staphylococcus pseudintermedius</em></figcaption>
-</figure>
-</div>
-<p>How does antimicrobial resistance spread between bacterial species? Antimicrobial resistance (AMR) is one of the most pressing challenges in medical microbiology. While much attention has focused on resistance in individual pathogenic species, less is understood about how resistance determinants move between species, and in particular, what role commensal bacteria play as reservoirs and vehicles for resistance gene transfer.</p>
-<p>My research addresses this question through the lens of staphylococcal cassette chromosome <em>mec</em> (SCC<em>mec</em>): the mobile genetic element responsible for methicillin resistance in staphylococci and mammaliicocci. SCC<em>mec</em> is well characterised in <em>Staphylococcus aureus</em>, where it defines MRSA. But the broader Staphylococcus genus (including dozens of species that colonise skin, gut and mucosal surfaces of humans and animals), harbours a far greater diversity of SCC<em>mec</em> elements than has been appreciated. These non-<em>aureus</em> staphylococci may act as the evolutionary workshop where novel SCC<em>mec</em> elements are assembled before transferring into <em>S. aureus</em> and other pathogens.</p>
-<section id="sccmecextractor" class="level2">
-<h2 class="anchored" data-anchor-id="sccmecextractor">SCCmecExtractor</h2>
-<p>To investigate SCC<em>mec</em> diversity at scale, I developed SCC<em>mec</em>Extractor, a bioinformatics tool that detects, extracts and characterises SCC<em>mec</em> elements from staphylococcal and mammaliicoccal genome assemblies.</p>
-<p>The tool identifies integration sites (<em>attL</em>/<em>attR</em>), extracts the intervening element and characterises its content: <em>mec</em> gene and <em>ccr</em> recombinase genes. It works across the entire Staphylococcus genus, not just <em>S. aureus</em>.</p>
-<p>Current version: v1.3.0 | BLAST-based detection | Gene content “typing” | Unified Report</p>
-<p><a href="https://github.com/AlisonMacFadyen/SCCmecExtractor">GitHub repository</a> | Paper in preparation</p>
-</section>
-<section id="key-findings" class="level2">
-<h2 class="anchored" data-anchor-id="key-findings">Key Findings</h2>
-<p>Analysis of over 5000 non-<em>aureus</em> staphylococcal genomes has revealed:</p>
-<p>Recombinase specificity: The CcrC recombinase shows strict specificity for divergent <em>att</em> sites, while CcrA4B4 shows unique dual substrate flexibility.</p>
-<p>Composite elements: 452 genomes carry composite SCC<em>mec</em> elements containing multiple recombinase types, suggesting sequential integration events.</p>
-<p>Inter-species transfer: 53 detected transfer events across species boundaries, with animal-associated SCC<em>mec</em> elements showing similarity to those in <em>S. aureus</em>.</p>
-<p>These findings point to a much more dynamic picture of SCC<em>mec</em> evolution than previously recognised, with implications for understanding how methicillin resistance emerges and spreads.</p>
-</section>
-<section id="research-programme" class="level2">
-<h2 class="anchored" data-anchor-id="research-programme">Research Programme</h2>
-<p>My ongoing and planned work spans three areas:</p>
-<p>Computational SCC<em>mec</em> diversity at scale — Analysis across &gt;6,500 genomes (non-<em>aureus</em> and <em>S. aureus</em>), characterising composite elements and developing predictive models for SCC<em>mec</em> mobility.</p>
-<p>Recombinase specificity and mechanism — CcrC is the most common recombinase in non-<em>aureus</em> SCC<em>mec</em> yet has never been experimentally characterised. I aim to determine its biochemical specificity through <em>in vitro</em> recombination assays and structural modelling and to understand the dual substrate flexibility of CcrA4B4.</p>
-<p>Inter-species SCC<em>mec</em> transfer — Testing computational predictions experimentally through co-culture transfer experiments with defined donor/recipient pairs.</p>
-</section>
-<section id="impact" class="level2">
-<h2 class="anchored" data-anchor-id="impact">Impact</h2>
-<p>SCCmec diversity in non-<em>aureus</em> staphylococci is not currently captured by routine genomic surveillance. SCC<em>mec</em>Extractor could complement existing tools used by public health agencies by enabling systematic monitoring of the commensal staphylococcal reservoir where novel resistance elements are assembled. Furthermore, extracting complete elements, rather than simply assigning a type, enables phylogenetic comparison of element structures and cargo across species, supporting epidemiological tracking of resistance element dissemination.</p>
-</section>
-<section id="associated-publications" class="level2">
-<h2 class="anchored" data-anchor-id="associated-publications">Associated Publications</h2>
 <ul>
 <li><strong>MacFadyen, AC</strong>; Paterson, GK. (2024). Methicillin resistance in Staphylococcus pseudintermedius encoded within novel staphylococcal cassette chromosome mec (SCCmec) variants. 2024, dkae096. doi: 10.1093/jac/dkae096</li>
+<li>McSorley, JC, <strong>MacFadyen, AC</strong>; Kerr, L; Tucker, NP. (2022). Host lysolipid differentially modulates virulence factor expression and antimicrobial susceptibility in Pseudomonas aeruginosa. Microbiology, 2022, 168(7). doi: 10.1099/mic.0.001179.</li>
+<li>Pickering, AC; Yebra, G; Xiangyu, G; Goncheva, MI; Wee, BA; <strong>MacFadyen, AC</strong>; Muehlbauer, LF; Alves, J; Cartwright, RA; Paterson, GK; Fitzgerald, RJ. (2021). Evolutionary and Functional Analysis of Coagulase Positivity among the Staphylococci. mSphere, 2021 Aug 25;6(4):e0038121. doi: 10.1128/mSphere.00381-21</li>
+<li><strong>MacFadyen, AC</strong>; Leroy, S; Harrison, EM; Parkhill, J; Holmes, M; Paterson, GK. (2019). Staphylococcus pseudoxylosus sp. nov., isolated from bovine mastitis. International Journal of Systematic and Evolutionary Microbiology, doi: 10.1099/ijsem.0.003416</li>
 <li><strong>MacFadyen, AC</strong>; Harrison, EM; Morgan, FJE; Parkhill, J; Holmes, MA; Paterson, GK. (2019). A mecC allotype, mecC3, in the CoNS Staphylococcus caeli, encoded within a variant SCCmecC. Journal of Antimicrobial Chemotherapy. 1;74(3):547-552. doi: 10.1093/jac/dky502</li>
+<li><strong>MacFadyen, AC</strong>; Walker, A; Paterson, GK. (2019). Streptococcus hillyeri sp. nov., isolated from an equine tracheal sample. International Journal of Systematic and Evolutionary Microbiology. doi: 10.1099/ijsem.0.003489</li>
 <li><strong>MacFadyen, AC</strong>; Fisher, E; Costa, B; Cullen, C; Paterson, G. (2018). Genomic epidemiology of methicillin-resistant Macrococcus caseolyticus from dairy cattle bulk tank milk in England and Wales. Microbial Genomics. 2018, Aug;4(8). doi: 10.1099/mgen.0.000191</li>
 <li><strong>MacFadyen, AC</strong>; Harrison, EM; Ellington, MJ; Parkhill¬, J; Holmes, MA; Paterson¬, GK. (2018) A highly conserved mecC encoding SCCmec type XI in a bovine isolate of methicillin-resistant Staphylococcus xylosus. Journal of Antimicrobial Chemotherapy. 2018, Aug 27. doi: 10.1093/jac/dky333</li>
-</ul>
-</section>
-<section id="in-preparation" class="level2">
-<h2 class="anchored" data-anchor-id="in-preparation">In preparation</h2>
-<ul>
-<li><strong>MacFadyen, AC</strong>. SCC<em>mec</em>Extractor: A tool for extracting Staphylococcal Cassette Chromosome elements from Staphylococcus Whole Genome Sequences.</li>
-<li><strong>MacFadyen, AC</strong> et al.&nbsp;SCC<em>mec</em> diversity in non-<em>aureus</em> staphylococci: evidence for inter-species transfer.</li>
+<li><strong>MacFadyen, AC</strong>; Drigo, I; Harrison, EM; Parkhill, J; Holmes; Paterson, GK. (2018). Staphylococcus caeli sp. nov., isolated from air sampling in an industrial rabbit holding. International Journal of Systematic and Evolutionary Microbiology. Int J Syst Evol Microbiol. 2018 Nov 14. doi: 10.1099/ijsem.0.003098</li>
+<li>Beaton, A; Lood, C; Cunningham-Oakes, E; <strong>MacFadyen, A</strong>; Mullins, Alex; El Bestawy, W; Botelho, J; Chevalier, S; Coleman, S; Dalzell, C; Dolan, S; Faccenda, A; Ghequire, M; Higgins, S; Kutschera, A; Murray, J; Redway, M; Salih, T; da Silva, A; Smith, B; Smits, N; Thomson, R; Woodcock, S; Welch, M; Cornelis, P; Lavigne, R; van Noort, V; Tucker, N. (2018). Community-led comparative genomic and phenotypic analysis of the aquaculture pathogen Pseudomonas baetica a390T sequenced by Ion semiconductor and Nanopore technologies, FEMS Microbiology Letters. doi: 10.1093/femsle/fny069</li>
+<li>Pethick, F. E., <strong>MacFadyen, AC</strong>, Tang, Z., Sangal, V., Liu, T.-T., Chu, J., Kosec, G., Petkovic, H., Guo, M., Kirby, R., Hoskisson, P.A., Herron, P.R., Hunter, I. S. (2013). Draft genome sequence of the oxytetracycline-producing bacterium Streptomyces rimosus ATCC 10970. Genome Announcements, 1(2). doi: 10.1128/genomea.00063-13</li>
 </ul>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
